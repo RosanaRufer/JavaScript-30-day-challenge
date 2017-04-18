@@ -16,3 +16,8 @@ I am following this fun challenge by Wes Bos.
 * We can set a CSS variable **from JavaScript** using: `document.documentElement.style.setProperty('--<variableName>', '<value>')`
 
 * **Improvement:** We can use the HTML `onInput` attribute for detecting changes on the `<input>` element. For example when moving the 'range' bar or changing  the 'color' when it's color type.
+
+* The `filter` CSS property applied to an image is very cool, we used it together with the `blur` function.
+
+## Day 4
+
