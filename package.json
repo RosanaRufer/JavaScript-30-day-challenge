@@ -1,0 +1,27 @@
+{
+  "name": "js30",
+  "version": "1.0.0",
+  "description": "JavaScript-30-day challenge",
+  "main": "readme.md",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Totemika/JavaScript-30-day-challenge.git"
+  },
+  "keywords": [
+    "javascript",
+    "challenge"
+  ],
+  "author": "Rosana Ruiz Fernandez @Totemika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Totemika/JavaScript-30-day-challenge/issues"
+  },
+  "homepage": "https://github.com/Totemika/JavaScript-30-day-challenge#readme"
+}
