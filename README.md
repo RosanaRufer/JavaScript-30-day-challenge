@@ -21,3 +21,4 @@ I am following this fun challenge by Wes Bos.
 
 ## Day 4
 
+* Mind blow when seeing `console.table()`  💥 💥 💥

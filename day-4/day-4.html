@@ -31,18 +31,37 @@
 
     // Array.prototype.filter()
     // 1. Filter the list of inventors for those who were born in the 1500's
-
+    const bornInTheFifteens = inventors.filter(function(inventor){
+        if(inventor.year >= 1500 && inventor.year < 1600){
+         return true;
+        }
+    });
+    console.log("Born in the fifteens");
+    console.table(bornInTheFifteens);
     // Array.prototype.map()
     // 2. Give us an array of the inventors' first and last names
+    const firstAndLastNames = inventors.map(function(inventor){
+       return `${inventor.first} ${inventor.last}`;
+    });
+    console.log("Map into first name + last name array");
+    console.table(firstAndLastNames);
 
     // Array.prototype.sort()
     // 3. Sort the inventors by birthdate, oldest to youngest
-
+    const sortedInventors = inventors.sort( (a, b) => a.year > b.year ? 1: -1);
+    console.log("Sorted by birthdate");
+    console.table(ordered);
     // Array.prototype.reduce()
     // 4. How many years did all the inventors live?
-
+    const totalYears  = inventors.reduce( total, inventor => {
+       return total + (inventor.passed - inventor.year);
+    });
     // 5. Sort the inventors by years lived
-
+    const sortedByYarsLived = inventors.sort( (a,b) => {
+       return (a.passed-a.year)> (b.passed - b.year) ? 1 : -1;
+    });
+    console.log("Sorted by longest lives");
+    console.log(sortedByYarsLived);
     // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
 
