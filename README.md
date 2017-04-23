@@ -21,4 +21,22 @@ I am following this fun challenge by Wes Bos.
 
 ## Day 4
 
+* Just exercises on array prototype methods: `filter`, `map`, `sort`, 
+
+* We also remember the fact we can't use these methods after using a `document.querySelector` or document.querySelectAll, because they return a NodeList. We convert it using Array.from(NodeList) or using the ES6 spread as: [...NodeList]
+
 * Mind blow when seeing `console.table()`  💥 💥 💥
+
+* JavaScript Array `reduce` method is also very cool and I like the syntax a lot. array.reduce( function(obj,next), <initial value>);
+
+## Day 5
+
+* Wes Bos has another series with only flexbox exercises and that's gonna be my next entertainment after I end this one.
+
+* Remember: (I already knew this but just for the record) We apply the `display: flex;` attribute in the container of our template in order to use flexbox. This will make the child elements to display inline with a width as big as their content. Later, we tell each child which fraction of the remaining space they should take.
+
+* Justify content:  , align-items:
+
+* Asterisk selector:
+
+*
