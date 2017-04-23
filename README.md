@@ -7,7 +7,7 @@ I am following this fun challenge by Wes Bos.
 
 ## Day 2
 
-## Day 3
+## Day 3 - CSS Variables
 
 * `:root` is the document's root element, the `<html></html>`, and is where we define CSS variables.
 
@@ -19,7 +19,7 @@ I am following this fun challenge by Wes Bos.
 
 * The `filter` CSS property applied to an image is very cool, we used it together with the `blur` function.
 
-## Day 4
+## Day 4 - Array Cardio Day 1
 
 * Just exercises on array prototype methods: `filter`, `map`, `sort`, 
 
@@ -27,16 +27,14 @@ I am following this fun challenge by Wes Bos.
 
 * Mind blow when seeing `console.table()`  💥 💥 💥
 
-* JavaScript Array `reduce` method is also very cool and I like the syntax a lot. array.reduce( function(obj,next), <initial value>);
+* JavaScript Array `reduce` method is also very cool and I like the syntax a lot. `array.reduce( function(obj,next), <initial value>)`;
 
-## Day 5
+## Day 5 - Flex Panel Gallery
 
 * Wes Bos has another series with only flexbox exercises and that's gonna be my next entertainment after I end this one.
 
 * Remember: (I already knew this but just for the record) We apply the `display: flex;` attribute in the container of our template in order to use flexbox. This will make the child elements to display inline with a width as big as their content. Later, we tell each child which fraction of the remaining space they should take.
 
-* Justify content:  , align-items:
+* Justify content: aligns a flexible container in the X-Axis, align-items: same but in the Y-Axis, also in a flexible container.
 
-* Asterisk selector:
-
-*
+* `>` Selects immediate children. These are called CSS **Combinators** || Asterisk selector: selects all elements.
