@@ -38,3 +38,5 @@ I am following this fun challenge by Wes Bos.
 * Justify content: aligns a flexible container in the X-Axis, align-items: same but in the Y-Axis, also in a flexible container.
 
 * `>` Selects immediate children. These are called CSS **Combinators** || Asterisk selector: selects all elements.
+
+## Day 6 - Type Ahead
