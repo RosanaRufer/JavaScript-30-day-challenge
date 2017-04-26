@@ -40,3 +40,11 @@ I am following this fun challenge by Wes Bos.
 * `>` Selects immediate children. These are called CSS **Combinators** || Asterisk selector: selects all elements.
 
 ## Day 6 - Type Ahead
+
+* `fetch` function itself returns a promise. When using `then` it returns a **blob** of data.
+
+* The blob has to be converted from the raw data into JSON, we use for that the `blob.json()` **async** method.
+
+* Again, we use the ES6 spread operator to spread or expand an array into multiple arguments to the push method.
+
+* Using .join() to convert an array of `<li>` elements into an HTML string. The argument of the `join` function is the string character we may want to add in between the HTML elements.
