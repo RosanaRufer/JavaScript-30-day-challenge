@@ -48,3 +48,15 @@ I am following this fun challenge by Wes Bos.
 * Again, we use the ES6 spread operator to spread or expand an array into multiple arguments to the push method.
 
 * Using .join() to convert an array of `<li>` elements into an HTML string. The argument of the `join` function is the string character we may want to add in between the HTML elements.
+
+## Day 7 - Array Cardio Day 2
+
+* Playing with `some` and `every`. Very simple this day.
+
+* Be careful with date prototype getYear function and use **getFullYear** instead.
+
+* You can see the name and value of a boolean in the console by writing it as console.log({variableName})
+
+* `splice(index, n, a1, a2...)` method removes n elements starting at index and adds a<sub>n</sub> elements.
+
+* `slice(start, endNotIncluded)` returns  from start to end, end not included.
