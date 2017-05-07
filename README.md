@@ -60,3 +60,7 @@ I am following this fun challenge by Wes Bos.
 * `splice(index, n, a1, a2...)` method removes n elements starting at index and adds a<sub>n</sub> elements.
 
 * `slice(start, endNotIncluded)` returns  from start to end, end not included.
+
+## Day 8 -
+
+* To start drawing on a canvas, first get the context. It could be 2D or 3D.
