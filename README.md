@@ -61,6 +61,23 @@ I am following this fun challenge by Wes Bos.
 
 * `slice(start, endNotIncluded)` returns  from start to end, end not included.
 
-## Day 8 -
+## Day 8 - Fun with HTML5 Canvas
 
 * To start drawing on a canvas, first get the context. It could be 2D or 3D.
+
+## Day 9 - 14 Must Know Dev Tool Tricks
+
+1. When an element style is changing and we don't know what's doing it, we can inspect Break on... attribute modifications => And the debugger will stop exactly where the element change is happening.
+2. **%s:** console.log accepts raditional string interpolation console.log( My string is %s, 'cool'), vs ES6
+3. **%c:** It also accepts styling as console.log( %c Some text, 'font-size:50px;')
+4. console.warn()
+5. console.error()
+6. console.info()
+7. console.assert: Allows checking if something is true => When it is **not true** the console.log will shout.
+8. console.clear() will clear the console.
+9. We can **view DOM elements** with `console.dir(element)`
+10. We can **group console messages** by inserting the logs in between the methods console.groupCollapsed(<groupName>) and console.groupEnd(<groupName>)
+11. console.count(argument) Returns how many times that `console.count(argument)` line has been executed.
+12. console.timeEnd(argument) will return how much time has passed since console.time(argument) was executed.
+13. console.table() We already know about it.
+14. console.log *This was number 1 but I skipped*.
