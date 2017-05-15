@@ -81,3 +81,10 @@ I am following this fun challenge by Wes Bos.
 12. console.timeEnd(argument) will return how much time has passed since console.time(argument) was executed.
 13. console.table() We already know about it.
 14. console.log *This was number 1 but I skipped*.
+
+## Day 10 - Hold Shift and Check Checkboxes
+
+* Challenging task.
+* I learnt that click events have the shiftKey property.
+* Inside the event handler, 'this' refers to the html element that was clicked. Even inside a forEach loop inside that event handler.
+*
