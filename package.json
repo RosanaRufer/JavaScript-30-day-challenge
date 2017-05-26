@@ -5,7 +5,7 @@
   "main": "readme.md",
   "dependencies": {},
   "devDependencies": {
-    "http-server": "^0.9.0"
+    "simple-autoreload-server": "^0.2.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

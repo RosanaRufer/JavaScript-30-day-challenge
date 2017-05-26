@@ -1,0 +1,4 @@
+{
+  "watch":  "**/**.{html,css,js}",
+  "reload": "**/**.{html,css,js}"
+}

@@ -1,7 +1,7 @@
 # JavaScript-30-day-challenge
-I am following this fun challenge by Wes Bos.
+I am following this fun challenge by [Wes Bos](https://javascript30.com).
 
-# Coolest part of each JS30 day
+# Handy notes for each day.
 
 ## Day 1
 
@@ -87,4 +87,12 @@ I am following this fun challenge by Wes Bos.
 * Challenging task.
 * I learnt that click events have the shiftKey property.
 * Inside the event handler, 'this' refers to the html element that was clicked. Even inside a forEach loop inside that event handler.
-*
+
+## Day 11 - Custom HTML5 Video Player
+
+* It was surprising that calling to the method that toggles the icon content from the method 'togglePlay' does not work.
+  You have to listen to 'play' and 'pause' events to do so.
+* Refresher on how to use data attribute:
+  1)Declare in the element as data-<data name>
+  2)Access it from the element JS scope as element.dataset.<data name>
+* To know where something was clicked in coordinates ->
