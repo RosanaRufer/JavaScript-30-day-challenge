@@ -110,4 +110,16 @@ I am following this fun challenge by [Wes Bos](https://javascript30.com).
 * Conditional templating is amazinlgy possible with ES6 string templates.
 * This one was a lot of fun.
 
+## Day 16 - Mouse move shadow
+* ES6 way to initialize variables width and height `const {offsetWidth: width, offsetHeight: height} = hero `
+* For the mouse events, if we listen over a parent, in the callback function the **this** object will always be the parent but the **event.target** changes depending on which child element the mouse is over.
+* event.offsetY and event.offsetX give the coordinates of the mouse.
 
+## Day 17 - Sorting bands name without articles
+* Reminder of sort, trim and replace.
+* JavaScript regex pattern should contain the '/' separator.
+* Refresh regexps.
+
+## Day 18
+* The function `split(char)` returns an array containing the chunks obtained after splitting over the char parameters.
+* Refresher on the `reduce` function. collection.reduce((item,initialValue)=>return initialValue+item,initialValue);

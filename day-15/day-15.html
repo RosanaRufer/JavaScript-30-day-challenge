@@ -50,7 +50,7 @@
            <li>
             <input type="checkbox" data-index="${i}" id="item${i}" ${plate.done ? 'checked' : ''}>
             <label for="item${i}">${plate.text}</label>
-            <span onclick="deleteItem(${i})">❌</span>
+            <span onclick="deleteItem(${i})">❌ </span>
            </li>
             `;
         }).join('');
