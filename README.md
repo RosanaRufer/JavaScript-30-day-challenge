@@ -96,3 +96,18 @@ I am following this fun challenge by [Wes Bos](https://javascript30.com).
   1)Declare in the element as data-<data name>
   2)Access it from the element JS scope as element.dataset.<data name>
 * To know where something was clicked in coordinates ->
+
+## Day 12 -
+
+## Day 13 -
+
+## Day 14 -
+
+* Debounce function
+
+## Day 15 - LocalStorage and Event delegation
+* Forms trigger a `submit` events we can subscribe to when user clicks an element of type 'submit'
+* Conditional templating is amazinlgy possible with ES6 string templates.
+* This one was a lot of fun.
+
+
