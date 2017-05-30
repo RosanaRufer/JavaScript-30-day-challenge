@@ -123,3 +123,15 @@ I am following this fun challenge by [Wes Bos](https://javascript30.com).
 ## Day 18
 * The function `split(char)` returns an array containing the chunks obtained after splitting over the char parameters.
 * Refresher on the `reduce` function. collection.reduce((item,initialValue)=>return initialValue+item,initialValue);
+
+## Day 19 - Unreal Webcam Fun
+* To access user video **navigator.mediaDevices.getUserMedia({video: true, audio: false})**
+* This returns a promise of type **MediaStream**.
+* In order to render it in video.src we need it to be transformed into a URL. **window.URL.createObjectURL(mediaStream)**
+* blob: Binary Large OBject
+* We can draw the video in the canvas as it were an image.
+* Events triggered by a <video> element can be reviewed [here](https://www.w3schools.com/tags/av_event_canplay.asp)
+* We get the image data (pixels) using ctx.getImageData  
+![alt text](19/imageData.png)
+
+![alt text](19/rgba.png)
