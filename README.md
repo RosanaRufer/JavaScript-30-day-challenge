@@ -134,4 +134,4 @@ I am following this fun challenge by [Wes Bos](https://javascript30.com).
 * We get the image data (pixels) using ctx.getImageData  
 ![alt text](19/imageData.png)
 
-![alt text](19/rgba.png)
+![alt text](19/rgb.png)
