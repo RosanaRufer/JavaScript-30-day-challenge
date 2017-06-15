@@ -135,3 +135,14 @@ I am following this fun challenge by [Wes Bos](https://javascript30.com).
 ![alt text](19/imageData.png)
 
 ![alt text](19/rgb.png)
+
+## Day 20 - Speech recognition
+* We can access HTML5 speech recognition without the need of any external library. It is available in a **global variable** that lives in the browser, on top of `window`. 
+* At the moment, it is only available in Chrome under window.webkitSpeechRecognition.
+* interimResults: If set to true, the results that are not yet final will be returned.
+
+## Day 21 - Geolocation based speedometer and compass
+* We can get user coordinates using navigator.geolocation.watchPosition.
+* This method success callback will return data with a variable frequency. This frequency depends on how
+fast the device is moving.
+* 
