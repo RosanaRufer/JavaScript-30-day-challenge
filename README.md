@@ -145,4 +145,8 @@ I am following this fun challenge by [Wes Bos](https://javascript30.com).
 * We can get user coordinates using navigator.geolocation.watchPosition.
 * This method success callback will return data with a variable frequency. This frequency depends on how
 fast the device is moving.
-* 
+
+## Day 22 - Follow Along links
+In this exercise we create a highlight pill that moves to any hovered link.
+We do so by creating a `span` element and appending it to `body` and then transforming its coordinates to whether the hovered link is.
+We must take into account the current `window.scrollX` and `window.scrollY`
