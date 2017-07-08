@@ -150,3 +150,17 @@ fast the device is moving.
 In this exercise we create a highlight pill that moves to any hovered link.
 We do so by creating a `span` element and appending it to `body` and then transforming its coordinates to whether the hovered link is.
 We must take into account the current `window.scrollX` and `window.scrollY`
+
+## Day 23 - SpeechSynthesis
+We play with the [SpeechSynthesis API](https://developers.google.com/web/updates/2014/01/Web-apps-that-talk-Introduction-to-the-Speech-Synthesis-API) 
+For an event callback, if we want to pass a parameter we can do these two ways:
+
+a) `element.addEventListener('evName', myFunction.bind(null, parameter))`
+
+b) `element.addEventListener('evName', ()=> myFunction(parameter))`
+
+## Day 24 - Sticky navbar
+This is an exercise for fixing the navbar to the top of the page when scrolling down.
+We do this by **subscribing** to the `scroll` event and, in the callback, constantly check if the window.scrollY is higher than the initial offsetTop of the navigation bar, in this case, a css class with position:fixed would be applied.
+
+Aditionally, since the `position: fixed;` removes the DOM element from the elements positioning flow in the document, leaving a gap that would cause a flip-flop effect. To avoid this, we get the navbar offsetHeight and add it to the body paddingTop.
