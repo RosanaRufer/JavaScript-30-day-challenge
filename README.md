@@ -164,3 +164,12 @@ This is an exercise for fixing the navbar to the top of the page when scrolling 
 We do this by **subscribing** to the `scroll` event and, in the callback, constantly check if the window.scrollY is higher than the initial offsetTop of the navigation bar, in this case, a css class with position:fixed would be applied.
 
 Aditionally, since the `position: fixed;` removes the DOM element from the elements positioning flow in the document, leaving a gap that would cause a flip-flop effect. To avoid this, we get the navbar offsetHeight and add it to the body paddingTop.
+
+## Day 25 - More about events.
+-When clicking a DOM element, the click event will be heard by the clicked element and all it's containers. It will bubble up.
+-But if we set `capture` to true, the event will be emited the other way around, from up to down.
+-If we do event.preventPropagation, we will stop bubbling to the parent elements.
+-`once`: Another option together with `capture`. `once` will tell the callback to execute only the first time the event is triggered, and then, the callback will **unbind** from the event.
+
+## Day 26 - Stripe Follow Along Nav
+* You cannot go from `opacity` 0 to 1 as well as you cannot go from `display` none to block => to do this, we create an stepped class.
